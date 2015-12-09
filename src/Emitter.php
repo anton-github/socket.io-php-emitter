@@ -117,7 +117,7 @@ class Emitter {
     }
 
     // publish
-    $packed = msgpack_pack(array($packet, array(
+    $packed = msgpack_pack(array('randomstring', $packet, array(
       'rooms' => $this->_rooms,
       'flags' => $this->_flags
     )));
