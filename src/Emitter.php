@@ -41,7 +41,7 @@ class Emitter {
     }
 
     $this->redis = $redis;
-    $this->key = (isset($opts['key']) ? $opts['key'] : 'socket.io') . '#emitter';
+    $this->key = (isset($opts['key']) ? $opts['key'] : 'socket.io') . '#/#';
 
     $this->_rooms = array();
     $this->_flags = array();
