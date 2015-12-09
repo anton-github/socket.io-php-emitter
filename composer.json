@@ -1,6 +1,6 @@
 {
-    "name": "rase/socket.io-emitter",
-    "description": "A PHP implementation of socket.io-emitter",
+    "name": "sitkoru/socket.io-emitter",
+    "description": "A PHP implementation of socket.io-emitter (fork)",
     "homepage": "https://github.com/rase-/socket.io-php-emitter",
     "support": {
         "issues": "https://github.com/rase-/socket.io-php-emitter/issues",
